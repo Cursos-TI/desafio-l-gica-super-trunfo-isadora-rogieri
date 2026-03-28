@@ -193,7 +193,7 @@ int main()
 
     if (densidade1 > densidade2)
     {
-      printf("Resultado: Cidade 1 %s venceu.\n", nomeCidade1);
+      printf("Resultado: Cidade 2 %s venceu.\n", nomeCidade2);
     }
     else if (densidade1 == densidade2)
     {
@@ -201,7 +201,7 @@ int main()
     }
     else
     {
-      printf("Resultado: Cidade 2 %s venceu.\n", nomeCidade2);
+      printf("Resultado: Cidade 1 %s venceu.\n", nomeCidade1);
     }
     break;
   default:
